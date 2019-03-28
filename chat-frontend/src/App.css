@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+  font-family: "Open Sans", serif;
+  background-color: #2a6bb1;
+}
+
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  background-color: #2a6bb1;
+}
+
+.chat {
+  word-wrap: normal;
+  height: 50vh;
+  border: 2px solid #113a65;
+  color: #fff;
+  overflow-y: auto;
+  scroll-behavior: auto;
+}
+
+.users {
+  border: 2px solid #113a65;
+  color: #fff;
+  overflow-y: scroll; 
+  margin-top: 20px;
+}
+.users p{
+  border-bottom: 2px solid #113a65;
+}
+.username {
+  color: #fff !important;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.username input[type="text"]{
+  margin-left: 10px;
+}
+.messageform {
+    margin-top: 4vh;
+}
+.messagetext {
+  height: 20vh;
+  resize: none;
+}
+
